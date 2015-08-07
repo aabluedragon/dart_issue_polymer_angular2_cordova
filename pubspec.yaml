@@ -18,3 +18,4 @@ transformers:
     entry_points: web/main.dart
 - polymer:
     entry_points: web/index.html
+    csp: true
