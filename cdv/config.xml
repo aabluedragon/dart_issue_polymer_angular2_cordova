@@ -7,7 +7,7 @@
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
-    <content src="http://localhost:63342/dart_issue_polymer_angular2_cordova/web/index.html" />
+    <content src="http://localhost:8080/index.html" />
     <plugin name="cordova-plugin-whitelist" version="1" />
     <allow-navigation href="*" />
     <access origin="*" />
