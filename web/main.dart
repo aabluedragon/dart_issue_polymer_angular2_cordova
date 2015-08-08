@@ -1,13 +1,13 @@
 import 'package:angular2/bootstrap.dart';
-import 'package:polymer/polymer.dart';
 import 'dart:html';
+import 'package:polymer/polymer.dart';
+export 'package:polymer/init.dart';
 
-void main() {
+@whenPolymerReady
+void onReady() {
   bootstrap(AppComponent);
-
   document.body.append(document.createElement('my-app'));
 }
-
 
 @Component(
     selector: 'my-app'
